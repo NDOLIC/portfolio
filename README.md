@@ -14,6 +14,7 @@ to open this project you must have one web-browser and text editor
 https://github.com/NDOLIC/port-folio
 
 ### License
-
-Copyright (c) 2018 
+This project is protected under terms of MIT license
+###Copyright
+ (c) 2018 
   
