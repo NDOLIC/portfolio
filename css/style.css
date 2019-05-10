@@ -1,0 +1,132 @@
+.img-circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+.card-image-size{
+  max-width: 400px;
+  max-height: 300px;
+  padding: 10px;
+}
+.card{
+  min-height: 500px;
+  margin: 15px;
+}
+.card-text{
+  padding: 10px;
+}
+.nav-pad{
+  padding-left: 10px;
+}
+.left-pos{
+  margin-left: 20px;
+  text-align: left;
+
+}
+.central{
+  margin: 0 auto;
+  text-align: center;
+}
+.fundo{
+  background-color: #C5D8DE;
+}
+.icon-p{
+  padding-right: 10px;
+}
+.box-title{
+  max-width: 550px;
+}
+.footer-pos{
+  margin-top: 20px; 
+  height: 100px;
+  color: white; 
+  background-color: black;
+position: absolute;
+bottom: 3; 
+  width: 100%;
+text-align: left;
+}
+
+#wrapper{
+margin-left: auto;
+margin-right: auto; 
+position: relative;
+min-height: 99%;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+.navbar {
+  width: 100%;
+  overflow: auto;
+  margin-left: -150px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #ffff99;
+}
+
+.active {
+  background-color: aliceblue;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  height: 20px;
+  width: 20;
+}
+/* section{
+  background-image: url(https://cdn-images-1.medium.com/max/2600/0*o1QU-7dhjuNPNZUq.);
+  background-size: 100% 100%;
+  height: 100%;
+} */
+.intro {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #111;
+  min-height: 600px;
+  padding: 0;
+  background-size: cover;
+  background-position: center center;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+h1{
+  text-align: center;
+}
+.italic{
+  margin-top: 180px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+.icons { 
+  color: green; 
+  width: 700px; 
+  height: 400px; 
+  border: 5px solid green; 
+} 
+i { 
+  text-shadow:2px 4px 6px; 
+} 
+.fa { 
+  font-size:50px; 
+} 
