@@ -1,4 +1,4 @@
-## port-folio
+## portfolio
 
 My first  landing page for my programming portfolio
 
@@ -14,7 +14,7 @@ to open this project you must have one web-browser and text editor
 ```
 
 ### link to live site on GitHub Pages
-https://github.com/NDOLIC/port-folio
+https://github.com/NDOLIC/portfolio
 
 ### License
 This project is protected under terms of MIT license

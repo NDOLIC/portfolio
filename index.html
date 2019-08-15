@@ -12,7 +12,7 @@
   </head>
   <body>
      
-        <section id="intro" style="background-image: url('image/hi.jpg'); background-size: cover; height: 100%;" class="intro">
+        <section id="intro" style="background-image: url('https://images.pexels.com/photos/247707/pexels-photo-247707.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500'); background-size: cover; height: 800px;" class="intro">
             
             <div class="overlay"></div>
             <div class="content">
@@ -31,9 +31,10 @@
                                                 
                                 </ul>
                             </div>
+                            <div id="about">
                             <h1 style="color: wheat;font-family: 'Sofia', cursive; font-family: 'Tangerine', cursive;
                             font-size: 80px;padding: 20px 10px;margin-top: 5%; font-weight: 1000;margin-right: -500px;">Marie Claire Tuyisenge</h1>
-                            <div id="about">
+                           
                              <p class="italic" style="font-family: 'Sofia', cursive; font-size: 40px;margin-right: -150px;">​A courageous, determined full stack software developer, with strong interpersonal and problem solving  skills.</p>
                             </div>
                             
@@ -43,22 +44,23 @@
             </div>
         </section>
 
-    <div id="projects">
+    <div id="projects" style="background-color: aliceblue;">
         <div id="wrapper">
         <div class="columns is-mobile is-multiline">
             <div class="column is-one-third">
                 <div class="card">
                     <div class="card-image">
                         <figure class="card-image-size">
-                            <a href="https://ndolic.github.io/Triangle-Tracker/"><img src="/home/claire/Pictures/Screenshot from 2019-04-25 11-57-48.png" alt=""></a>
+                            <a href="https://ndolic.github.io/Triangle-Tracker/"><img src="images/triangle.png" alt="" style="height: 300px; width: 500px;"></a>
                         </figure>
                 </div>
                     <p class="title is-4 card-text">Triangle-Tracker</p>
-
+                     <ul style="text-align: center; display:block; padding-left: 20px;">
+                         <li>Checking if is a triangle</li>
+                         <li>if yes it tells you which type</li>
+                         <li>click to picture to live link</li>
+                     </ul>
                     <div class="content card-text">
-                        <p>
-                            <i class="icon-p fa fa-lg fa-html"><img src="data:image/png;base64,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" style="height:3px; width: 3px;"></i></li>
-                        </p>
                     <p><a href="https://github.com/NDOLIC/Triangle-Tracker">Github-Repo</a></p>
                     </div>
                 </div>
@@ -67,13 +69,18 @@
                 <div class="card">
                     <div class="card-image">
                         <figure class="card-image-size">
-                            <a hef="https://ndolic.github.io/myQuotes/"><img alt="Jaca PLanet" src="/home/claire/Pictures/pictue.png"></a>
+                            <a href="https://ndolic.github.io/myQuotes/"><img src="images/myquote.png" alt="" style="height: 300px; width: 500px;"></a>
                         </figure>
-                    </div>
+                </div>
                     <p class="title is-4 card-text">myQuotes</p>
-                    <br>
+                    <ul style="text-align: center; display:block; padding-left: 20px;">
+                        <li>you can post a quote</li>
+                        <li>you can like or downvote it</li>
+                        <li>you can delete it</li>
+                        <li>Click on image to go to live link</li>
+                    </ul>
                     <div class="content card-text">
-                <p> <a href="https://github.com/NDOLIC/myQuotes">GitRepo</a></p>
+                <p><a href="https://github.com/NDOLIC/myQuotes">GitRepo</a></p>
                     </div>
                     </div>
             </div>
@@ -81,13 +88,19 @@
                 <div class="card card-size">
                     <div class="card-image">
                         <figure class="card-image-size">
-                            <a hef="https://galleryt.herokuapp.com/"><img title="hackumbc" alt="" src="/home/claire/Pictures/pict.png"></a>
+                            <a href="https://ndolic.github.io/Farer-way/UI/index.html"><img src="images/way farer.png" alt="" style="height: 300px; width: 500px;"></a>
                         </figure>
                     </div>
-                    <p class="title is-4 card-text">Gallery</p>
+                    <p class="title is-4 card-text">Way-Farer</p>
+                    <ul style="text-align: center; display:block; padding-left: 20px;">
+                        <li>you can signin and signup</li>
+                        <li>you can post a trip as admin</li>
+                        <li>you can book a trip</li>
+                        <li>Click on image to go to live link</li>
+                    </ul>
                     <div class="content card-text">
                         <p>
-                            <a href="https://github.com/NDOLIC/Gallery">GitRepo</a>
+                            <a href="https://github.com/NDOLIC/Farer-way">GitRepo</a>
                         </p>
                     </div>
                 </div>
@@ -96,7 +109,7 @@
       </div>
     </div>
     <div id="skills">
-    <div class="container" style="background-image:url(https://wallpapercave.com/wp/nLjxrSk.jpg); background-size:cover; background-repeat: no-repeat; width : 100%; height: 100%;padding-top: 15%">
+    <div class="container" style="background-image:url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500); background-size:cover; background-repeat: no-repeat; width : 2500px; height: 400px; padding-top: 50px;">
             <div class="skill" style="margin-bottom: 5%;">    
                 <img src="data:image/png;base64,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" style="border: 1px solid #ddd;
         border-radius: 4px;
